@@ -13,11 +13,21 @@ Consigli:
 
 
 
-
+//collego div html a js
+listContainer = document.getElementById("list-container")
 
 //creo un array che contiene gli elementi della lista della spesa
 const listaSpesa = ["pane", "pasta", "acqua", "latte","uova"]
 console.log(listaSpesa)
 
+let contatore = 0
 
+
+
+
+while (listaSpesa.length < 4) {
+    
+    
+
+}
 
