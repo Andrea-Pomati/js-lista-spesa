@@ -25,9 +25,16 @@ let contatore = 0
 
 
 
-while (listaSpesa.length < 5) {
+// for (i = 0; i < listaSpesa.length; i++){
+
+
+// }
+
+
+while (contatore < listaSpesa.length) {
     
-
-
+  
+    contatore++
 }
+
 
