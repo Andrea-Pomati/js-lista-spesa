@@ -13,28 +13,44 @@ Consigli:
 
 
 
-//collego div html a js
-let listContainer = document.getElementById("list-container")
+// //collego div html a js
+// let listContainer = document.getElementById("list-container")
 
-//creo un array che contiene gli elementi della lista della spesa
-const listaSpesa = ["pane", "pasta", "acqua", "latte","uova"]
-console.log(listaSpesa)
+// //creo un array che contiene gli elementi della lista della spesa
+// const listaSpesa = ["pane", "pasta", "acqua", "latte","uova"]
+// console.log(listaSpesa)
 
-let contatore = 0
-
-
+// let contatore = 0
 
 
-// for (i = 0; i < listaSpesa.length; i++){
 
 
+// // for (i = 0; i < listaSpesa.length; i++){
+
+
+// // }
+
+
+// while (contatore < listaSpesa.length) {
+    
+  
+//     contatore++
 // }
 
 
-while (contatore < listaSpesa.length) {
-    
-  
-    contatore++
+
+let spesa = ["pasta", "riso", "pollo", "pesce", "latte"];
+let lista = document.querySelector(".lista");
+let button = document.querySelector("button");
+
+let i = 0;
+
+while(i < spesa.length){
+    let item = `<div>${spesa[i]}</div>`;
+    lista.innerHTML += item;
+
+    i++; 
 }
+
 
 
